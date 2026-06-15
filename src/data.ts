@@ -30,24 +30,25 @@ export const data = {
   ],
   projects: [
     {
-      title: "Airbnb-Style Rental Marketplace",
-      description: "A comprehensive rental marketplace application featuring intuitive property search, flexible booking, and robust user roles.",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+      title: "Instant Corrector",
+      description: "A full-stack, AI-driven writing and text optimization application featuring real-time keyboard-intercept autocorrection and advanced cloud-hosted semantic linting.",
+      image: "/instant-corrector.png",
       links: {
         demo: "#",
         repo: "#"
       },
       highlights: [
-        "Implemented JWT-based authentication and secure user roles.",
-        "Built property CRUD operations with image uploads.",
-        "Designed booking engine with availability checks, search, and filters."
+        "Integrated Gemini 3.5 AI Engine via the @google/genai SDK for grammar and style analysis.",
+        "Built a secure full-stack Express.js and Vite architecture, preventing API credential leakage.",
+        "Implemented real-time client dictionary matching and predictive weights using TensorFlow.js.",
+        "Designed fluid motion-powered UI components with React 19 and Tailwind CSS v4."
       ],
-      techStack: ["React.js", "Java", "JWT", "REST APIs"]
+      techStack: ["React 19", "Express.js", "Gemini API", "TensorFlow.js", "TypeScript"]
     },
     {
       title: "Online Banking System",
       description: "A secure and efficient web-based banking platform allowing users to seamlessly perform core banking operations.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?q=80&w=1000&auto=format&fit=crop",
+      image: "/Online.jpg",
       links: {
         demo: "#",
         repo: "#"
