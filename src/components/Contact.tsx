@@ -48,7 +48,7 @@ export function Contact() {
             <div className="flex items-center gap-8 font-medium">
               <a href={data.contact.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">LinkedIn</a>
               <a href={`mailto:${data.contact.email}`} className="hover:text-white transition-colors">Email</a>
-              <a href="#" className="hover:text-white transition-colors">GitHub</a>
+              {data.contact.github && <a href={data.contact.github} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">GitHub</a>}
             </div>
           </div>
         </motion.div>

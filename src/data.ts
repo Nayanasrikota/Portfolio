@@ -5,7 +5,8 @@ export const data = {
   contact: {
     phone: "(+91) 9391090076",
     email: "nayanasrikota@gmail.com",
-    linkedin: "https://linkedin.com/in/nayanasri", 
+    linkedin: "https://www.linkedin.com/in/nayana-srikota/", 
+    github: "https://github.com/Nayanasrikota",
   },
   objective: "Enthusiastic Computer Science undergraduate aspiring to secure a Java Developer role where I can leverage my knowledge of Java, data structures, and object-oriented programming to develop robust and scalable applications, while contributing to innovative projects and continuous organizational growth.",
   education: [

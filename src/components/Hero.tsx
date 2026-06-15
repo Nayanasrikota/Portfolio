@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Mail, Linkedin, ArrowRight } from "lucide-react";
+import { Mail, Linkedin, Github, ArrowRight } from "lucide-react";
 import { data } from "../data";
 
 export function Hero() {
@@ -60,6 +60,7 @@ export function Hero() {
             <div className="flex items-center gap-4 border-l border-white/10 pl-6 border-l-0 sm:border-l-2">
               <SocialLink href={`mailto:${data.contact.email}`} icon={<Mail className="w-4 h-4" />} />
               <SocialLink href={data.contact.linkedin} icon={<Linkedin className="w-4 h-4" />} />
+              {data.contact.github && <SocialLink href={data.contact.github} icon={<Github className="w-4 h-4" />} />}
             </div>
           </motion.div>
         </div>
