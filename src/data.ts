@@ -36,7 +36,7 @@ export const data = {
       image: "/instant-corrector.png",
       links: {
         demo: "#",
-        repo: "#"
+        repo: "https://github.com/Nayanasrikota/AutoCorrectTool"
       },
       highlights: [
         "Integrated Gemini 3.5 AI Engine via the @google/genai SDK for grammar and style analysis.",
